@@ -15,7 +15,7 @@ import os
 
 from django.conf.global_settings import MEDIA_ROOT, MEDIA_URL
 
-form dotenv import load_dotenv()
+from  dotenv import load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
