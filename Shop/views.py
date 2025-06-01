@@ -1,4 +1,4 @@
-from .models import import Product, ProductModel, Information
+from .models import Product, ProductModel, Information
 from .serializers import ProductSerializers, ProductModelSerializers, InformationSerializers
 from rest_framework import viewsets
 
